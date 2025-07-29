@@ -4,13 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/post.css">
     <title>Login Posts</title>
 </head>
 
 <body>
     <header></header>
-    <main></main>
+    <main>
+        <button id="logout-btn">Logout</button>
+        <input type="text" id="search" placeholder="Buscar posts..." />
+        <div id="posts-container"></div>
+        <div id="modal" class="modal" style="display:none;">
+            <div class="modal-content">
+                <span id="close-modal" class="close">&times;</span>
+                <h2 id="modal-title"></h2>
+                <p id="modal-body"></p>
+            </div>
+        </div>
+    </main>
     <footer></footer>
 </body>
 <script src="../scripts/posts.js"></script>
