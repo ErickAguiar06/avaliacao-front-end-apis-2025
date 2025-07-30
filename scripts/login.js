@@ -8,7 +8,7 @@ const errorMessage = document.getElementById('errorMessage');
 document.addEventListener('DOMContentLoaded', function() {
   checkAuthStatus();
   usernameInput.value = 'emilys';
-  passwordInput.value = 'emilyspass';
+  passwordInput.value = 'senha137';
 });
 
 function checkAuthStatus() {
