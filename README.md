@@ -75,3 +75,19 @@ Serão avaliados os seguintes pontos:
 1. Crie um fork deste repositório.
 2. Implemente a solução.
 3. Faça commits frequentes e claros.
+
+## Login
+
+![](./assets/login.png)
+
+## Posts
+
+![](./assets/post.png)
+
+## Barra de Pesquisa
+
+![](./assets/pesquisa.png)
+
+## Informação do Posts
+
+![](./assets/modal.png)

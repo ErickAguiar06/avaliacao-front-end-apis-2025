@@ -14,9 +14,8 @@
         <body class="align">
 
   <div class="grid">
-
-    <form action="https://httpbin.org/post" method="POST" class="form login">
-
+    <div id="errorMessage" class="error-message"></div>
+    <form id="loginForm" class="form login">
       <div class="form__field">
         <label for="login__username"><svg class="icon">
             <use xlink:href="#icon-user"></use>
@@ -32,9 +31,8 @@
       </div>
 
       <div class="form__field">
-        <input type="submit" value="Sign In">
+  <button id="loginBtn" type="submit">Entrar</button>
       </div>
-
     </form>
 
   </div>

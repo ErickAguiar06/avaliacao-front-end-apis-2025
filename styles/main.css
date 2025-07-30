@@ -241,6 +241,26 @@ input[type="submit"] {
   background-color: var(--loginSubmitHoverBackgroundColor);
 }
 
+/* Estilo para o botão Entrar na tela de login */
+#loginBtn {
+  width: 100%;
+  border-radius: var(--loginBorderRadus);
+  padding: 1rem;
+  background-color: var(--loginSubmitBackgroundColor);
+  color: var(--loginSubmitColor);
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+  font-size: 1rem;
+}
+
+#loginBtn:focus,
+#loginBtn:hover {
+  background-color: var(--loginSubmitHoverBackgroundColor);
+}
+
 /* modules/text.css */
 
 p {
@@ -268,3 +288,12 @@ footer {
   font-weight: 500;
 }
 
+.error-message {
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  display: none;
+}
+.error-message.show {
+  display: block;
+}
